@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: webm-app3
+  title: webm-app3
+  description: Webmethods Integrations Repository
+  tags:
+    - webm
+    - ei
+    - managed-service
+  annotations:
+    github.com/project-slug: Sandy1101/webm-app3
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: development
+  owner: webm-users
+  dependsOn:
+    - resource:webm-software
